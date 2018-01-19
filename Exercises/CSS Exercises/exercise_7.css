@@ -1,0 +1,26 @@
+    body {
+        background-color: #f0f8ff;
+    }
+
+    div {
+        width: 75%;
+        min-width: 500px;
+        border: 1px solid #333333;
+        box-shadow: 5px 5px #333333;
+        border-radius: 8px;
+        background-color: white;
+        padding: 0.5em;
+        margin-bottom: 1em;
+    }
+
+    div.red {
+        border: 1px dashed red; 
+        color: red; 
+        box-shadow: 5px 5px red;
+    }
+
+    span {
+        font-weight: bold;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }

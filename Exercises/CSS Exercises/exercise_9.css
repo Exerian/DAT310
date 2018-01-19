@@ -1,0 +1,24 @@
+a {
+    color: green;
+    
+}
+
+div:nth-child(2) a {
+    color: purple;
+    background: yellow;
+}
+
+li:first-child {
+    font-weight: bold;
+}
+ul:first-child {
+    color: blue;
+}
+
+ul:nth-child(n) a {
+    color: red;
+}
+
+ul:nth-child(1) ul {
+    list-style: none;
+}
